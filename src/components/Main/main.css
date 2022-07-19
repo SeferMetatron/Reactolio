@@ -1,0 +1,33 @@
+.main-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content .card {
+  margin: 18px;
+  padding: 18px;
+  color: rgb(21, 21, 21);
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.35);
+  border-radius: 28px;
+}
+
+.main-content .card img {
+  background: rgb(255, 217, 165);
+  border-radius: 100%;
+  width: 40px;
+  padding: 10px;
+}
+.proj-link,
+.q-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.proj-link:hover {
+  color: blue;
+}
+.proj-link:active {
+  color: orange;
+}

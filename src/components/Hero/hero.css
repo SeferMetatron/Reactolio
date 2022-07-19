@@ -1,0 +1,33 @@
+.main-section {
+  margin: 18px;
+  padding: 20px 28px;
+  background: white;
+  color: rgb(65, 36, 195);
+  border-radius: 28px;
+  text-align: left;
+}
+
+.main-section h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.main-section h1:nth-of-type(2) {
+  color: rgb(242, 140, 157);
+}
+
+.main-section p {
+  color: rgb(21, 21, 21);
+}
+
+.main-section button {
+  margin-right: 20px;
+  padding: 14px 22px;
+}
+
+.main-section a {
+  color: rgb(95, 124, 142);
+  font-size: 0.9rem;
+  font-weight: bold;
+}

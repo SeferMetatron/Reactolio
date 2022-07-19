@@ -1,0 +1,12 @@
+html {
+  font-size: 0.9rem;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  color: rgb(21, 21, 21);
+  font-family: "Nunito", sans-serif;
+  background-image: url("./Images/abstrak-dark-blue-purple-background-vector_529781-68.jpg");
+  background-size: cover;
+}
