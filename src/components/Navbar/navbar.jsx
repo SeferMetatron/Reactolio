@@ -1,11 +1,11 @@
 import "./navbar.css";
-
+import logo from "./logoipsum-logo-12.svg";
 const Navbar = () => {
   return (
     <div className="main-header">
       <div className="main-navbar">
         <div className="logo">
-          <img src="./Images/logoipsum-logo-12.svg" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
 
         <ul className="nav-list">

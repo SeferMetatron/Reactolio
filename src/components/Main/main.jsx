@@ -1,10 +1,12 @@
 import "./main.css";
-
+import doge from "./doge.png";
+import raptor from "./raptur.jpg";
+import nyan from "./nyon.png";
 const Main = () => {
   return (
     <div className="main-content">
       <div className="card">
-        <img src="./Images/doge.png" alt="first" />
+        <img src={doge} alt="first" />
         <h3>Skills</h3>
         <p>
           Critical Thinking. New Perspectives for new Ideas. HTML, CSS, learning
@@ -12,7 +14,7 @@ const Main = () => {
         </p>
       </div>
       <div className="card">
-        <img src="./Images/nyon.png" alt="second" />
+        <img src={nyan} alt="second" />
         <h3>Projects</h3>
         <p>Here is a list of my most recent projects:</p>
         <ul className="proj-list">
@@ -39,7 +41,7 @@ const Main = () => {
         </ul>
       </div>
       <div className="card">
-        <img src="./Images/raptur.jpg" alt="third" />
+        <img src={raptor} alt="third" />
         <h3>Queries</h3>
         <p>
           If you have any questions, contact me at:

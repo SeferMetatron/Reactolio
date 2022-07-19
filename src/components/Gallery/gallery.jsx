@@ -1,4 +1,5 @@
 import "./gallery.css";
+import jojo from "./jojoj.jpg";
 
 const Gallery = () => {
   return (
@@ -29,7 +30,7 @@ const Gallery = () => {
         <img src="https://picsum.photos/150/150?8" alt="card" />
       </div>
       <div className="card">
-        <img src="./Images/jojoj.jpg" alt="card" />
+        <img src={jojo} alt="card" />
       </div>
     </div>
   );
